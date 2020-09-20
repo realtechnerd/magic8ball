@@ -5,8 +5,11 @@ function Magic8Ball(props) {
         return null;
     }
     return(
-        <div id="Card" className="Card">
-            <h2>{props.output}</h2>
+        <div className="Pad">
+            <div className="containeri">
+            <img src="https://spaces.profoundjs.com/ide/bernice/magic-8-ball-app/public/8-Ball.png" id="img" alt=""/>
+            <div className="centered">{props.output}</div>
+            </div>
         </div>
     )
 }

@@ -1,10 +1,11 @@
+@import url(https://cdn.jsdelivr.net/gh/realtechnerd/button.css@master/style.min.css);
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 * {
     font-family: Oxygen;
     -webkit-tap-highlight-color: transparent;
 }
 body {
-    margin: 0;
+    background-color: #000;
 }
 .Header {
     background-color: #eee;
@@ -13,8 +14,8 @@ body {
 .Header h1, a{
     display: inline-block;
     padding: 5px;
-    color: #000;
     text-decoration: none;
+    color: #d3d3d3;
 }
 @media only screen and (max-width: 600px) {
     .Header {
@@ -30,10 +31,13 @@ body {
         margin-bottom: 15px;
         margin-top: 15px;
     }
+    #img {
+        width: 100% !important;
+    }
 }
 #input {
     padding: 10px;
-    font-family: Oxygen;
+    font-family: Inter !important;
     outline: none !important;
     border-radius: 7.5px;
     font-size: 15pt;
@@ -45,6 +49,7 @@ body {
     padding: 15px;
     border-radius: 1rem;
     background-color: #eee;
+    transition: background-color 0.1s;
 }
 .container {
     margin-left: 25%;
@@ -59,11 +64,36 @@ body {
 }
 .Cardmode {
     background-color: #333;
-    color: #d3d3d3;
+    color: #d3d3d3 !important;
     transition: background-color 0.1s;
 }
 .Inputmode {
     background-color: #000 !important;
     color: #fff !important;
+    transition: background-color 0.1s;
+}
+.Cardmode::after {
+    transition: background-color 0.1s;
+}
+#img {
+    text-align: center;
+    width: 400px;
+}
+.containeri {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25% !important;
+    font-size: 12.5pt;
+  }
+  .Pad {
+    padding: 15px;
+    border-radius: 1rem;
     transition: background-color 0.1s;
 }
