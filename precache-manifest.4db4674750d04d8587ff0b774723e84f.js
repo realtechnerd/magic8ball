@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f1e2e93a1194ab5819c1738b987eb16d",
+    "revision": "d9731f6352d5ebf5c96db8321fee7bec",
     "url": "/magic8ball/index.html"
   },
   {
