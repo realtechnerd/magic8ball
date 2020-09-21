@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e0c45453a4ef9afcdccfbeae527ef3c4",
+    "revision": "571d9756e7b80af33f8737903578e83c",
     "url": "/magic8ball/index.html"
   },
   {
-    "revision": "e8fef8f80c76762364a2",
-    "url": "/magic8ball/static/css/main.5db0e9e2.chunk.css"
+    "revision": "0febf0e11ddb5b1f489f",
+    "url": "/magic8ball/static/css/main.13090735.chunk.css"
   },
   {
     "revision": "f4e2272ddfda461ae2e0",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/magic8ball/static/js/2.3c0147d9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e8fef8f80c76762364a2",
+    "revision": "0febf0e11ddb5b1f489f",
     "url": "/magic8ball/static/js/main.f9a16655.chunk.js"
   },
   {
