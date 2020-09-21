@@ -1,4 +1,5 @@
 import React from 'react';
+import Ball from "./8-Ball.png";
 
 function Magic8Ball(props) {
     if (props.output === "") {
@@ -7,7 +8,7 @@ function Magic8Ball(props) {
     return(
         <div className="Pad">
             <div className="containeri">
-                <img src="https://spaces.profoundjs.com/ide/bernice/magic-8-ball-app/public/8-Ball.png" id="img" alt=""/>
+                <img src={Ball} id="img" alt=""/>
                 <div className="centered">{props.output}</div>
             </div>
         </div>
