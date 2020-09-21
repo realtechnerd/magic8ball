@@ -8,18 +8,26 @@ class Input extends Component {
         super();
         this.state = {
             output: "",
-            dmode: false
+            dmode: false,
+            msg: "",
+            input: ""
         }
         this.submit = this.submit.bind(this);
+        this.handleChange = this.handleChange.bind(this);
     }
+    handleChange(e) {
+        const {name, value} = e.target;
+        
+        this.setState({
+            [name]: value
+        })
+    };
     submit(e) {
         const replies = Replies;
         const i = replies.sort(() => Math.random() - 0.5);
         this.setState({
             output: i[0]
         })
-
-        console.log(this.state.output)
 
         e.preventDefault();
     }
@@ -35,11 +43,17 @@ class Input extends Component {
                             className="Inputmode"
                             autoComplete="off"
                             placeholder="Ask.."
+                            name="input"
+                            value={this.state.input}
+                            onChange={this.handleChange}
                         />
                     </form>
+                    <div id="msg">
+                        {this.state.msg}
+                    </div>
                 </div>
                 <br/>
-                <Magic8Ball output={this.state.output}/>
+                <Magic8Ball output={this.state.output} input={this.state.input}/>
             </div>
          );
     }

@@ -122,4 +122,9 @@ body {
   -webkit-transition: background-color 0.1s;
   transition: background-color 0.1s;
 }
+
+#msg {
+  margin-top: 5px;
+  margin-left: 5px;
+}
 /*# sourceMappingURL=style.css.map */
