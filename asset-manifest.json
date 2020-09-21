@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/magic8ball/static/css/main.5db0e9e2.chunk.css",
+    "main.js": "/magic8ball/static/js/main.f9a16655.chunk.js",
+    "main.js.map": "/magic8ball/static/js/main.f9a16655.chunk.js.map",
+    "runtime-main.js": "/magic8ball/static/js/runtime-main.0ffb8d2d.js",
+    "runtime-main.js.map": "/magic8ball/static/js/runtime-main.0ffb8d2d.js.map",
+    "static/js/2.3c0147d9.chunk.js": "/magic8ball/static/js/2.3c0147d9.chunk.js",
+    "static/js/2.3c0147d9.chunk.js.map": "/magic8ball/static/js/2.3c0147d9.chunk.js.map",
+    "index.html": "/magic8ball/index.html",
+    "precache-manifest.d5ab094e66a4cd520dd4fdf096fc9dd9.js": "/magic8ball/precache-manifest.d5ab094e66a4cd520dd4fdf096fc9dd9.js",
+    "service-worker.js": "/magic8ball/service-worker.js",
+    "static/css/main.5db0e9e2.chunk.css.map": "/magic8ball/static/css/main.5db0e9e2.chunk.css.map",
+    "static/js/2.3c0147d9.chunk.js.LICENSE.txt": "/magic8ball/static/js/2.3c0147d9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ffb8d2d.js",
+    "static/js/2.3c0147d9.chunk.js",
+    "static/css/main.5db0e9e2.chunk.css",
+    "static/js/main.f9a16655.chunk.js"
+  ]
+}
