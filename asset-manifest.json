@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/magic8ball/static/css/main.13090735.chunk.css",
-    "main.js": "/magic8ball/static/js/main.f9a16655.chunk.js",
-    "main.js.map": "/magic8ball/static/js/main.f9a16655.chunk.js.map",
+    "main.css": "/magic8ball/static/css/main.97c491c5.chunk.css",
+    "main.js": "/magic8ball/static/js/main.a1d8a3df.chunk.js",
+    "main.js.map": "/magic8ball/static/js/main.a1d8a3df.chunk.js.map",
     "runtime-main.js": "/magic8ball/static/js/runtime-main.0ffb8d2d.js",
     "runtime-main.js.map": "/magic8ball/static/js/runtime-main.0ffb8d2d.js.map",
-    "static/js/2.3c0147d9.chunk.js": "/magic8ball/static/js/2.3c0147d9.chunk.js",
-    "static/js/2.3c0147d9.chunk.js.map": "/magic8ball/static/js/2.3c0147d9.chunk.js.map",
+    "static/js/2.ceac5083.chunk.js": "/magic8ball/static/js/2.ceac5083.chunk.js",
+    "static/js/2.ceac5083.chunk.js.map": "/magic8ball/static/js/2.ceac5083.chunk.js.map",
     "index.html": "/magic8ball/index.html",
-    "precache-manifest.efae8cb3e71137d584b73c64be3aa6f4.js": "/magic8ball/precache-manifest.efae8cb3e71137d584b73c64be3aa6f4.js",
+    "precache-manifest.3b00abb835f2f52aeb22e9f7e04dce82.js": "/magic8ball/precache-manifest.3b00abb835f2f52aeb22e9f7e04dce82.js",
     "service-worker.js": "/magic8ball/service-worker.js",
-    "static/css/main.13090735.chunk.css.map": "/magic8ball/static/css/main.13090735.chunk.css.map",
-    "static/js/2.3c0147d9.chunk.js.LICENSE.txt": "/magic8ball/static/js/2.3c0147d9.chunk.js.LICENSE.txt"
+    "static/css/main.97c491c5.chunk.css.map": "/magic8ball/static/css/main.97c491c5.chunk.css.map",
+    "static/js/2.ceac5083.chunk.js.LICENSE.txt": "/magic8ball/static/js/2.ceac5083.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0ffb8d2d.js",
-    "static/js/2.3c0147d9.chunk.js",
-    "static/css/main.13090735.chunk.css",
-    "static/js/main.f9a16655.chunk.js"
+    "static/js/2.ceac5083.chunk.js",
+    "static/css/main.97c491c5.chunk.css",
+    "static/js/main.a1d8a3df.chunk.js"
   ]
 }
